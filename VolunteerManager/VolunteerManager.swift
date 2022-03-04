@@ -3,7 +3,9 @@
 //  VolunteerManager
 //
 //  Created by Paul Inventado on 2/23/22.
-//
+//  Student: Richard Gobea
+//  CWID: 888236270
+//  Email: rgobea@csu.fullerton.edu
 
 import Foundation
 
@@ -14,14 +16,16 @@ struct VolunteerManager {
     private(set) var volunteers: [String:Int] = [:]
     
     mutating func volunteer(_ name: String, for hours: Int) {
+        if hours < 0 {
+            return 
+        }
         if let volunteerHours = volunteers[name] {
-            volunteers[name] = volunteerHours
+            volunteers[name] = volunteerHours + hours
         } else {
             volunteers[name] = hours
         }
-                
-        if let volunteerHours = volunteers[name], volunteerHours > 20 {
-            volunteers[name] = 30
+       if let volunteerHours = volunteers[name], volunteerHours > 20 {
+            volunteers[name] = 20
         }
     }
         
