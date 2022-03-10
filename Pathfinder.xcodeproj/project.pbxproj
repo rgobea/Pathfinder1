@@ -63,8 +63,8 @@
 			children = (
 				ECD98A1627C6F026005BF6F4 /* LICENSE */,
 				ECD98A1427C6D671005BF6F4 /* README.md */,
-				ECD989E727C6CB7E005BF6F4 /* VolunteerManager */,
-				ECD989F827C6CB7F005BF6F4 /* VolunteerManagerTests */,
+				ECD989E727C6CB7E005BF6F4 /* Pathfinder */,
+				ECD989F827C6CB7F005BF6F4 /* Tests */,
 				ECD989E627C6CB7E005BF6F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +78,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECD989E727C6CB7E005BF6F4 /* VolunteerManager */ = {
+		ECD989E727C6CB7E005BF6F4 /* Pathfinder */ = {
 			isa = PBXGroup;
 			children = (
 				ECD989E827C6CB7E005BF6F4 /* Pathfinder.swift */,
@@ -87,7 +87,7 @@
 				ECD989EC27C6CB7F005BF6F4 /* Assets.xcassets */,
 				ECD989EE27C6CB7F005BF6F4 /* Preview Content */,
 			);
-			path = VolunteerManager;
+			path = Pathfinder;
 			sourceTree = "<group>";
 		};
 		ECD989EE27C6CB7F005BF6F4 /* Preview Content */ = {
@@ -98,12 +98,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		ECD989F827C6CB7F005BF6F4 /* VolunteerManagerTests */ = {
+		ECD989F827C6CB7F005BF6F4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				ECD989F927C6CB7F005BF6F4 /* PathfinderTests.swift */,
 			);
-			path = VolunteerManagerTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VolunteerManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Pathfinder/Pathfinder.swift Pathfinder/PathfinderClass.swift Tests/PathfinderTests.swift Pathfinder/ContentView.swift";
 				DEVELOPMENT_TEAM = B2237HP63K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -365,10 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.VolunteerManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,7 +382,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VolunteerManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Pathfinder/Pathfinder.swift Pathfinder/PathfinderClass.swift Tests/PathfinderTests.swift Pathfinder/ContentView.swift";
 				DEVELOPMENT_TEAM = B2237HP63K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -394,10 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.fullerton.ecs.VolunteerManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
