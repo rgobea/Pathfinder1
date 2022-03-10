@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ECD989E427C6CB7E005BF6F4"
                BuildableName = "VolunteerManager.app"
-               BlueprintName = "VolunteerManager"
-               ReferencedContainer = "container:VolunteerManager.xcodeproj">
+               BlueprintName = "Pathfinder"
+               ReferencedContainer = "container:Pathfinder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,8 +35,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ECD989F427C6CB7F005BF6F4"
                BuildableName = "VolunteerManagerTests.xctest"
-               BlueprintName = "VolunteerManagerTests"
-               ReferencedContainer = "container:VolunteerManager.xcodeproj">
+               BlueprintName = "PathfinderTests"
+               ReferencedContainer = "container:Pathfinder.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,7 +46,7 @@
                BlueprintIdentifier = "ECD989FE27C6CB7F005BF6F4"
                BuildableName = "VolunteerManagerUITests.xctest"
                BlueprintName = "VolunteerManagerUITests"
-               ReferencedContainer = "container:VolunteerManager.xcodeproj">
+               ReferencedContainer = "container:Pathfinder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -67,8 +67,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ECD989E427C6CB7E005BF6F4"
             BuildableName = "VolunteerManager.app"
-            BlueprintName = "VolunteerManager"
-            ReferencedContainer = "container:VolunteerManager.xcodeproj">
+            BlueprintName = "Pathfinder"
+            ReferencedContainer = "container:Pathfinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -84,8 +84,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ECD989E427C6CB7E005BF6F4"
             BuildableName = "VolunteerManager.app"
-            BlueprintName = "VolunteerManager"
-            ReferencedContainer = "container:VolunteerManager.xcodeproj">
+            BlueprintName = "Pathfinder"
+            ReferencedContainer = "container:Pathfinder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

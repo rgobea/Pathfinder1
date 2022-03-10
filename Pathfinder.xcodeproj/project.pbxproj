@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECD989E927C6CB7E005BF6F4 /* VolunteerManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD989E827C6CB7E005BF6F4 /* VolunteerManagerApp.swift */; };
+		ECD989E927C6CB7E005BF6F4 /* Pathfinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD989E827C6CB7E005BF6F4 /* Pathfinder.swift */; };
 		ECD989EB27C6CB7E005BF6F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD989EA27C6CB7E005BF6F4 /* ContentView.swift */; };
 		ECD989ED27C6CB7F005BF6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD989EC27C6CB7F005BF6F4 /* Assets.xcassets */; };
 		ECD989F027C6CB7F005BF6F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD989EF27C6CB7F005BF6F4 /* Preview Assets.xcassets */; };
-		ECD989FA27C6CB7F005BF6F4 /* VolunteerManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD989F927C6CB7F005BF6F4 /* VolunteerManagerTests.swift */; };
-		ECD98A1327C6CB8F005BF6F4 /* VolunteerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD98A1227C6CB8F005BF6F4 /* VolunteerManager.swift */; };
+		ECD989FA27C6CB7F005BF6F4 /* PathfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD989F927C6CB7F005BF6F4 /* PathfinderTests.swift */; };
+		ECD98A1327C6CB8F005BF6F4 /* PathfinderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD98A1227C6CB8F005BF6F4 /* PathfinderClass.swift */; };
 		ECD98A1527C6D671005BF6F4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ECD98A1427C6D671005BF6F4 /* README.md */; };
 		ECD98A1727C6F026005BF6F4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ECD98A1627C6F026005BF6F4 /* LICENSE */; };
 /* End PBXBuildFile section */
@@ -28,14 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ECD989E527C6CB7E005BF6F4 /* VolunteerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolunteerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD989E827C6CB7E005BF6F4 /* VolunteerManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerManagerApp.swift; sourceTree = "<group>"; };
+		ECD989E527C6CB7E005BF6F4 /* Pathfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pathfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD989E827C6CB7E005BF6F4 /* Pathfinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pathfinder.swift; sourceTree = "<group>"; };
 		ECD989EA27C6CB7E005BF6F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECD989EC27C6CB7F005BF6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECD989EF27C6CB7F005BF6F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ECD989F527C6CB7F005BF6F4 /* VolunteerManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolunteerManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD989F927C6CB7F005BF6F4 /* VolunteerManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerManagerTests.swift; sourceTree = "<group>"; };
-		ECD98A1227C6CB8F005BF6F4 /* VolunteerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerManager.swift; sourceTree = "<group>"; };
+		ECD989F527C6CB7F005BF6F4 /* PathfinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathfinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD989F927C6CB7F005BF6F4 /* PathfinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathfinderTests.swift; sourceTree = "<group>"; };
+		ECD98A1227C6CB8F005BF6F4 /* PathfinderClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathfinderClass.swift; sourceTree = "<group>"; };
 		ECD98A1427C6D671005BF6F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ECD98A1627C6F026005BF6F4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,8 +72,8 @@
 		ECD989E627C6CB7E005BF6F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECD989E527C6CB7E005BF6F4 /* VolunteerManager.app */,
-				ECD989F527C6CB7F005BF6F4 /* VolunteerManagerTests.xctest */,
+				ECD989E527C6CB7E005BF6F4 /* Pathfinder.app */,
+				ECD989F527C6CB7F005BF6F4 /* PathfinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +81,9 @@
 		ECD989E727C6CB7E005BF6F4 /* VolunteerManager */ = {
 			isa = PBXGroup;
 			children = (
-				ECD989E827C6CB7E005BF6F4 /* VolunteerManagerApp.swift */,
+				ECD989E827C6CB7E005BF6F4 /* Pathfinder.swift */,
 				ECD989EA27C6CB7E005BF6F4 /* ContentView.swift */,
-				ECD98A1227C6CB8F005BF6F4 /* VolunteerManager.swift */,
+				ECD98A1227C6CB8F005BF6F4 /* PathfinderClass.swift */,
 				ECD989EC27C6CB7F005BF6F4 /* Assets.xcassets */,
 				ECD989EE27C6CB7F005BF6F4 /* Preview Content */,
 			);
@@ -101,7 +101,7 @@
 		ECD989F827C6CB7F005BF6F4 /* VolunteerManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				ECD989F927C6CB7F005BF6F4 /* VolunteerManagerTests.swift */,
+				ECD989F927C6CB7F005BF6F4 /* PathfinderTests.swift */,
 			);
 			path = VolunteerManagerTests;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECD989E427C6CB7E005BF6F4 /* VolunteerManager */ = {
+		ECD989E427C6CB7E005BF6F4 /* Pathfinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD98A0927C6CB7F005BF6F4 /* Build configuration list for PBXNativeTarget "VolunteerManager" */;
+			buildConfigurationList = ECD98A0927C6CB7F005BF6F4 /* Build configuration list for PBXNativeTarget "Pathfinder" */;
 			buildPhases = (
 				ECD989E127C6CB7E005BF6F4 /* Sources */,
 				ECD989E227C6CB7E005BF6F4 /* Frameworks */,
@@ -121,14 +121,14 @@
 			);
 			dependencies = (
 			);
-			name = VolunteerManager;
+			name = Pathfinder;
 			productName = VolunteerManager;
-			productReference = ECD989E527C6CB7E005BF6F4 /* VolunteerManager.app */;
+			productReference = ECD989E527C6CB7E005BF6F4 /* Pathfinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ECD989F427C6CB7F005BF6F4 /* VolunteerManagerTests */ = {
+		ECD989F427C6CB7F005BF6F4 /* PathfinderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD98A0C27C6CB7F005BF6F4 /* Build configuration list for PBXNativeTarget "VolunteerManagerTests" */;
+			buildConfigurationList = ECD98A0C27C6CB7F005BF6F4 /* Build configuration list for PBXNativeTarget "PathfinderTests" */;
 			buildPhases = (
 				ECD989F127C6CB7F005BF6F4 /* Sources */,
 				ECD989F227C6CB7F005BF6F4 /* Frameworks */,
@@ -139,9 +139,9 @@
 			dependencies = (
 				ECD989F727C6CB7F005BF6F4 /* PBXTargetDependency */,
 			);
-			name = VolunteerManagerTests;
+			name = PathfinderTests;
 			productName = VolunteerManagerTests;
-			productReference = ECD989F527C6CB7F005BF6F4 /* VolunteerManagerTests.xctest */;
+			productReference = ECD989F527C6CB7F005BF6F4 /* PathfinderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ECD989E027C6CB7E005BF6F4 /* Build configuration list for PBXProject "VolunteerManager" */;
+			buildConfigurationList = ECD989E027C6CB7E005BF6F4 /* Build configuration list for PBXProject "Pathfinder" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -176,8 +176,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECD989E427C6CB7E005BF6F4 /* VolunteerManager */,
-				ECD989F427C6CB7F005BF6F4 /* VolunteerManagerTests */,
+				ECD989E427C6CB7E005BF6F4 /* Pathfinder */,
+				ECD989F427C6CB7F005BF6F4 /* PathfinderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -209,8 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD989EB27C6CB7E005BF6F4 /* ContentView.swift in Sources */,
-				ECD98A1327C6CB8F005BF6F4 /* VolunteerManager.swift in Sources */,
-				ECD989E927C6CB7E005BF6F4 /* VolunteerManagerApp.swift in Sources */,
+				ECD98A1327C6CB8F005BF6F4 /* PathfinderClass.swift in Sources */,
+				ECD989E927C6CB7E005BF6F4 /* Pathfinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD989FA27C6CB7F005BF6F4 /* VolunteerManagerTests.swift in Sources */,
+				ECD989FA27C6CB7F005BF6F4 /* PathfinderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +227,7 @@
 /* Begin PBXTargetDependency section */
 		ECD989F727C6CB7F005BF6F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ECD989E427C6CB7E005BF6F4 /* VolunteerManager */;
+			target = ECD989E427C6CB7E005BF6F4 /* Pathfinder */;
 			targetProxy = ECD989F627C6CB7F005BF6F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -423,7 +423,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolunteerManager.app/VolunteerManager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathfinder.app/Pathfinder";
 			};
 			name = Debug;
 		};
@@ -443,14 +443,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolunteerManager.app/VolunteerManager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathfinder.app/Pathfinder";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECD989E027C6CB7E005BF6F4 /* Build configuration list for PBXProject "VolunteerManager" */ = {
+		ECD989E027C6CB7E005BF6F4 /* Build configuration list for PBXProject "Pathfinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECD98A0727C6CB7F005BF6F4 /* Debug */,
@@ -459,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD98A0927C6CB7F005BF6F4 /* Build configuration list for PBXNativeTarget "VolunteerManager" */ = {
+		ECD98A0927C6CB7F005BF6F4 /* Build configuration list for PBXNativeTarget "Pathfinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECD98A0A27C6CB7F005BF6F4 /* Debug */,
@@ -468,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD98A0C27C6CB7F005BF6F4 /* Build configuration list for PBXNativeTarget "VolunteerManagerTests" */ = {
+		ECD98A0C27C6CB7F005BF6F4 /* Build configuration list for PBXNativeTarget "PathfinderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECD98A0D27C6CB7F005BF6F4 /* Debug */,
